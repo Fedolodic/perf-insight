@@ -1,0 +1,45 @@
+{
+  "name": "perf-insight",
+  "version": "1.0.0",
+  "description": "CLI to improve code analysis by automatically embedding performance.mark and performance.measure in JS & TS functions, and simplify code cleanup with the built-in, easy-to-use tear down functionality.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jasmine"
+  },
+  "keywords": [
+    "performance",
+    "measure",
+    "mark",
+    "timing",
+    "analysis",
+    "profiling",
+    "JavaScript",
+    "TypeScript",
+    "function",
+    "duration",
+    "code",
+    "optimization",
+    "monitoring",
+    "user timing",
+    "performance tracking",
+    "tear down",
+    "performance measurement",
+    "CLI"
+  ],
+  "author": "Joenteny David Martinez",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/core": "^7.21.4",
+    "@babel/generator": "^7.21.3",
+    "@babel/parser": "^7.21.3",
+    "@babel/traverse": "^7.21.3",
+    "commander": "^10.0.0",
+    "fs": "^0.0.1-security"
+  },
+  "devDependencies": {
+    "jasmine": "^4.6.0"
+  },
+  "bin": {
+    "perf-insight": "./cli.js"
+  }
+}
